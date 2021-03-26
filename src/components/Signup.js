@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 function Signup() {
     return (
         <>
@@ -70,13 +70,13 @@ function Signup() {
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="form-check-label"><input type="checkbox" required="required" /> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+                    <label class="form-check-label"><input type="checkbox" required="required" /> I accept the <NavLink to="/login">Terms of Use</NavLink> &amp; <NavLink to="/login">Privacy Policy</NavLink></label>
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary btn-lg">Sign Up</button>
                 </div>
 
-                <div class="text-center">Already have an account? <a href="#">Login here</a></div>
+                <div class="text-center">Already have an account? <NavLink to="/login">Login here</NavLink></div>
 
             </div>
 
