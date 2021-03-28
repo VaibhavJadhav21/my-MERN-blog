@@ -5,10 +5,10 @@ import logo from "../images/logo.jpg"
 function Navbar() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <img src={logo} width="160" height="70" class="d-inline-block align-top" alt="logo"/>
-  <NavLink className="navbar-brand" to="#">Shubham's Blog</NavLink>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <nav className="navbar navbar-expand-xl navbar-light bg-light">
+  <img src={logo}  className=" imager d-inline-block align-top" alt="logo"/>
+  <NavLink className="navbar-brand" to="/">Shubham's Blog</NavLink>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
 

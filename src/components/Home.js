@@ -2,9 +2,9 @@ import React from 'react'
 
 function Home() {
     return (
-        <div >
+        <div className="homes" >
             <p>WELCOME EVERYONE</p>
-            <h1>It is a Home Page</h1>
+            <h1>My Name is <span className="h9" >Subham Kumar</span> and I am a MERN stack Developer</h1>
         </div>
     )
 }
